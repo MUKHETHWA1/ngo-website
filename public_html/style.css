@@ -1,0 +1,247 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 09 Sep 2022, 13:22:50
+    Author     : mukhethwa magadani
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body{
+    background-color: pink;
+    
+}   
+@media screen , all{
+    .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                 height: auto;
+    }
+    nav{
+        width: 100%;
+         height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+            background-color: white;
+
+    }
+     .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                      height: auto;
+    }
+    nav{
+        float: none;
+        width: 100%;
+         height: auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+     body{
+            background-color: blueviolet;
+
+    }
+     .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                 height: auto;
+        
+    }
+    nav{
+        width: 100%;
+         height: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+     body{
+            background-color: tan;
+
+    }
+     .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                 height: auto;
+                          
+    }
+    nav{
+        width: 100%;
+         height: auto;
+    }
+} 
+@media only screen and (min-width: 992px) {
+     body{
+            background-color: lightblue;
+
+    }
+     .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                 height: auto;
+                         
+    }
+    nav{
+        width: 100%;
+         height: auto;
+    }
+} 
+@media only screen and (min-width: 1200px) {
+     body{
+            background-color: pink;
+
+    }
+     .homeContainer{
+        width: 100%;
+        padding: 0 15px;
+         height: auto;
+    }
+    .aboutContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .contactContainer{
+                width: 100%; 
+                 height: auto;
+    }
+    .getinvolvedContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .ourworkContainer{
+                width: 100%;
+                 height: auto;
+    }
+    .photogalleryContainer{
+                width: 100%;
+                 height: auto;
+               
+    }
+    nav{
+        width: 100%;
+         height: auto;
+    }
+}

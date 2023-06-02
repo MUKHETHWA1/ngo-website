@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Get Involved Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="image-16.png" >
+                <link rel="stylesheet" href="style.css">
+        <style>
+           h2{
+               color: rgb(77, 44, 84);
+               border-style: solid;
+               border-color: rgb(77, 44, 84);
+               border-width: medium;
+               width: auto;
+               
+           } 
+           textarea{
+                width: 100%;
+           height: 150px;
+       padding: 12px 20px;
+           box-sizing: border-box;
+       border: 2px solid #ccc;
+      border-radius: 4px;
+     background-color: #f8f8f8;
+        resize: none;
+           }
+          </style>
+    </head>
+    <body>
+         <nav>
+            <ul>
+                <li><a href="homepage.html">Home Page</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="ourwork.html">Our Work</a></li>
+                <li> <a href="gallery.html">Gallery</a></li>
+                <li> <a href="getinvolved.html">Get Involved</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+          <section class="getinvolvedContainer" id="getinvolvedSection">
+               <div class="getinvolvedContainer">
+                   <h2  style="font-size: 400%">Get Involved</h2>
+                    <form>
+           <div > 
+             
+                Full Name: <input type="text"  required />
+            </div> 
+            <div>
+                Email Address: <input type="text"   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+            </div> 
+            <div> 
+                Contact Number: <input type="tel" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required/>
+            </div> 
+            <div> 
+                <p><label for="enquiry">enquiry:</label></p>
+                <textarea name="enquiry" rows="10" cols="30">
+                
+                </textarea> 
+            </div>
+            <div>
+                <input type="submit" value="submit"/>
+                <input type="reset" value="reset"/>
+            </div>
+        </form>
+               </div>
+          </section>
+        
+    </body>
+</html>
